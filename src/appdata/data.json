@@ -1,0 +1,9 @@
+{
+    "images" : {
+        "icons" : {
+            "github" : "/images/icons/github.svg",
+            "linkedin" : "/images/icons/linkedin.svg",
+            "mail" : "/images/icons/mail.svg"
+        }
+    }
+}

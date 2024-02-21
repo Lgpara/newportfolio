@@ -1,0 +1,51 @@
+.navMenuContainer {
+  height: 400px;
+}
+.navMenuContainer nav {
+  display: flex;
+  flex-direction: column;
+}
+.navMenuContainer nav .navElementContainer {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid var(--yellow05) 2px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.navMenuContainer nav .navElementContainer:hover {
+  border: solid var(--yellow) 2px;
+  width: 440px;
+}
+.navMenuContainer nav .navElementContainer:hover .backgroundElement {
+  background-image: none;
+  background-color: var(--yellow);
+}
+.navMenuContainer nav .navElementContainer:hover .navElement {
+  background: none;
+}
+.navMenuContainer nav .navElementContainer .backgroundElement {
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-image: url("/images/back/tech.svg");
+  border-radius: 8px;
+  z-index: 1;
+  transition: all ease-in-out 0.2s;
+}
+.navMenuContainer nav .navElementContainer .navElement {
+  font-size: 40px;
+  position: relative;
+  z-index: 2;
+  background: rgb(96, 74, 17);
+  background: linear-gradient(90deg, rgba(96, 74, 17, 0.2) 0%, rgba(52, 40, 13, 0.7) 66%);
+  color: var(--text);
+  text-align: right;
+  padding: 5px 30px;
+  border-radius: 8px;
+  transition: all ease-in-out 0.2s;
+}/*# sourceMappingURL=navMenu.css.map */
